@@ -79,15 +79,19 @@ rag-multilingual-qa-system/
 
 ## ⚙️ Tech Stack
 
-| Component | Tool |
-|------------|------|
-| Language | Python 3.10+ |
-| Framework | FastAPI (for web API) |
-| Vector DB | FAISS |
-| Embeddings | OpenAI API / Sentence-Transformers |
-| Config | python-dotenv |
-| Testing | pytest |
-| Language Detection | langdetect |
+| **Component**          | **Tool / Technology**                              |
+|-------------------------|----------------------------------------------------|
+| Language                | Python 3.10+                                       |
+| Framework               | FastAPI (for Web API)                              |
+| Vector Database          | FAISS                                              |
+| Embedding Models         | OpenAI API / Sentence-Transformers                 |
+| Configuration Management | python-dotenv                                     |
+| Testing Framework        | pytest                                            |
+| Language Detection       | langdetect                                        |
+| Environment Isolation    | virtualenv / venv                                |
+| Version Control          | Git + GitHub                                      |
+| Deployment Option        | Docker (optional, local/remote build supported)  |
+
 
 ---
 
