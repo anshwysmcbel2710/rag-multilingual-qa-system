@@ -30,38 +30,39 @@ When a user asks a question in English or Arabic, the system retrieves the most 
 ---
 
 
-## 🧱 Project Structure
+## 📂 Project Structure
 
+```text
 rag-multilingual-qa-system/
 │
-├── data/ # 10 text documents (5 English + 5 Arabic)
-│ ├── product_catalog_en.txt
-│ ├── product_catalog_ar.txt
-│ ├── warranty_policy_en.txt
-│ ├── warranty_policy_ar.txt
-│ ├── safety_manual_en.txt
-│ ├── safety_manual_ar.txt
-│ ├── company_policy_en.txt
-│ ├── company_policy_ar.txt
-│ ├── technical_specs_en.txt
-│ └── technical_specs_ar.txt
+├── data/                             # 10 text documents (5 English + 5 Arabic)
+│   ├── product_catalog_en.txt
+│   ├── product_catalog_ar.txt
+│   ├── warranty_policy_en.txt
+│   ├── warranty_policy_ar.txt
+│   ├── safety_manual_en.txt
+│   ├── safety_manual_ar.txt
+│   ├── company_policy_en.txt
+│   ├── company_policy_ar.txt
+│   ├── technical_specs_en.txt
+│   └── technical_specs_ar.txt
 │
-├── src/ # Main application code
-│ ├── init.py
-│ ├── config.py
-│ ├── ingest.py
-│ ├── chunker.py
-│ ├── embedder.py
-│ ├── indexer.py
-│ ├── retriever.py
-│ ├── generator.py
-│ ├── utils.py
-│ ├── cli_app.py
-│ └── web_app.py
+├── src/                              # Main application code
+│   ├── __init__.py
+│   ├── config.py
+│   ├── ingest.py
+│   ├── chunker.py
+│   ├── embedder.py
+│   ├── indexer.py
+│   ├── retriever.py
+│   ├── generator.py
+│   ├── utils.py
+│   ├── cli_app.py
+│   └── web_app.py
 │
 ├── tests/
-│ ├── test_pipeline.py
-│ └── test_mock_mode.py
+│   ├── test_pipeline.py
+│   └── test_mock_mode.py
 │
 ├── .env.example
 ├── build_index.py
@@ -69,11 +70,12 @@ rag-multilingual-qa-system/
 ├── requirements.txt
 ├── latency_report.md
 ├── Dockerfile
+├── .gitignore
+├── Project_Detail.pdf
 └── README.md
 
-
-
 ---
+
 
 ## ⚙️ Tech Stack
 
