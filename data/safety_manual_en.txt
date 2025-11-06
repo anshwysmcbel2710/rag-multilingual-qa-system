@@ -1,0 +1,9 @@
+Safety Manual — Alrouf Lighting Technology
+
+1. Always disconnect power before installation or maintenance.
+2. Only qualified technicians should perform wiring and mounting.
+3. Ensure fixtures are grounded properly.
+4. Avoid installing lights in areas with continuous vibration.
+5. Do not exceed rated voltage of 220V AC.
+6. Keep LED lenses clean for maximum brightness.
+7. Dispose of electronic waste responsibly following local regulations.

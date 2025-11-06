@@ -1,0 +1,12 @@
+Technical Specifications — Alrouf Streetlight Models
+
+Model: ALR-SL-90W
+- Power: 90W
+- Voltage: 220V AC ±10%
+- Frequency: 50/60Hz
+- Beam Angle: 120°
+- Color Temperature: 6000K (Cool White)
+- Housing: Die-cast Aluminum
+- IP Rating: IP65 (dust and water resistant)
+- Operating Temperature: -20°C to +50°C
+- Lifetime: 50,000 hours

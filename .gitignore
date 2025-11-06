@@ -1,0 +1,98 @@
+# ---------------------------
+# PYTHON & VENV FILES
+# ---------------------------
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# ---------------------------
+# ENVIRONMENT VARIABLES
+# ---------------------------
+
+# Secret environment file (do NOT upload)
+.env
+*.env
+
+# Example env can stay (safe)
+!.env.example
+
+# ---------------------------
+# DATA & MODEL FILES
+# ---------------------------
+
+# Vector index or embeddings
+*.faiss
+*.pkl
+*.bin
+*.npz
+*.npy
+
+# Large cache files (Hugging Face, models, etc.)
+cache/
+hf_cache/
+models/
+output/
+checkpoints/
+sentence_transformers/
+
+# Temporary data files
+*.tmp
+*.bak
+*.swp
+
+# ---------------------------
+# OS / EDITOR FILES
+# ---------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code / IDEs
+.vscode/
+.idea/
+.history/
+*.code-workspace
+
+# ---------------------------
+# MISC
+# ---------------------------
+
+# Latency or debug logs
+*.log
+*.csv
+*.jsonl
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Demo video or large assets
+*.mp4
+*.mov
+*.avi
+*.mkv
+assets/
+
+# ---------------------------
+# END
+# ---------------------------
